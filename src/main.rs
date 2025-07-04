@@ -111,7 +111,7 @@ fn display_weather_info(response: &WeatherResponse){
             let country_code = country_code.trim();
 
             //Get your api key
-            let api_key = "3093a0a1422c734e5c0880d78df72474";
+            let api_key = "";
 
             // calling the function to fetch weather inforamtion
             match get_weather_info(&city, &country_code, api_key){
